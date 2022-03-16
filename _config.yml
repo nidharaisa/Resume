@@ -1,5 +1,5 @@
 # Site
-repository: nidharaisa/nidharaisa
+repository: nidharaisa/modern-resume-theme
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -88,7 +88,6 @@ content:
             - Implemented a cross-platform SDK that can support VoIP calls, IM, etc., features.
             - Implemented JNI wrapper class to integrate SDK into android applications.
             - Developed a cross-platform connection establishment mechanism between web server and several mobile apps.
-    content:
       - layout: left
         title: Ipvision Canada Inc
         link: http://ipvision.ca/
@@ -102,7 +101,6 @@ content:
             - Implementation of communication protocols between server and social networking app called RingID.
             - Designed and implemented Live streaming feature for real-time audio/video data streaming with pause, resume and time-selection options.
             - Developed android test app for feature testing.
-    content:
       - layout: left
         title: AnyConnect Pvt Ltd
         link: https://anyconnect.com/
@@ -134,7 +132,6 @@ content:
             #Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
             - User-centric privacy management system for Smart Grid that allows the users to classify personal information based on priority level and control sharing of data in order to preserve data privacy. 
             - Privacy based attacks and prevention mechanisms on Big Data and IoT.
-    content:
       - layout: left
         title: Shahjalal University of Science and Technology
         link: https://www.sust.edu/
