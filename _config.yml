@@ -130,7 +130,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
         description: | # this will include new lines to allow paragraphs
-          I started this project to experiment if it is possible to track user face and use mask to communicate with others as anonymous on real-time. This project is developed in <mark>JavaScript<\mark>, and used <mark>scaledrone.js</mark> and <mark>tracking.js</mark> library to establish web calls and track face respectively.
+          I started this project to experiment if it is possible to track user face and use mask to communicate with others as anonymous on real-time. This project is developed in <mark>JavaScript</mark> , and used <mark>scaledrone.js</mark> and <mark>tracking.js</mark> library to establish web calls and track face respectively.
 
 
   - title: Education # Title for the section
