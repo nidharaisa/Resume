@@ -53,25 +53,6 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>C/C++</mark> <mark>git</mark> <mark>Network programming</mark>
 
 content:
-  - title: GitHub Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Face Masking Demo
-        link: github.com/nidharaisa/FaceMaskingDemo
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -106,7 +87,7 @@ content:
         quote: >
         description: |
             - Designed and implemented a Reliable UDP channel that guarantees packet transmission by bandwidth management and re-transmission.
-            - Implemented Nested NAT detection mechanism resulting successful P2P connection establishment 90\% times.
+            - Implemented Nested NAT detection mechanism resulting successful P2P connection establishment 90% times.
             - Optimized ICE check completion time by modifying the standard protocol which improved data transfer time by 2 to 3 seconds.
             - Implemented TCP send protocol using raw socket.
             - Integrated unit testing for legacy codebase using Google Test Framework.
@@ -122,7 +103,7 @@ content:
         caption: August 2019 - Present
         quote: >
         description: | # this will include new lines to allow paragraphs
-            - User-centric privacy management system for Smart Grid that allows the users to classify personal information based on priority level and control sharing of data in order to preserve data privacy. 
+            User-centric privacy management system for Smart Grid that allows the users to classify personal information based on priority level and control sharing of data in order to preserve data privacy. 
       - layout: left
         title: Shahjalal University of Science and Technology
         link: sust.edu
@@ -131,7 +112,25 @@ content:
         caption: March 2013 - May 2014
         quote: >
         description: | # this will include new lines to allow paragraphs
-            An optical character recognizer (OCR) for Bengali language which can detect some well known Bengali fonts from image files and convert the file into editable text file format. 
+            An optical character recognizer (OCR) for Bengali language which can detect some well known Bengali fonts from image files and convert the file into editable text file format. OCR is developed in <mark>C++</mark> using algorithms like knn, connected component, etc. <mark>Tesseract engine</mark> and <mark>OpenCV</mark> is used for image processing and training dataset.
+
+  - title: GitHub Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Face Masking Demo
+        link: github.com/nidharaisa/FaceMaskingDemo
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          I started this project to experiment if it is possible to track user face and use mask to communicate with others as anonymous on real-time. This project is developed in <mark>JavaScript<\mark>, and used <mark>scaledrone.js</mark> and <mark>tracking.js</mark> library to establish web calls and track face respectively.
 
 
   - title: Education # Title for the section
