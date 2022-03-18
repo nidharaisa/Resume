@@ -144,7 +144,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
         description: | # this will include new lines to allow paragraphs
-          This <mark>C++<\mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
+          This <mark>C++</mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -153,6 +153,14 @@ content:
         title: New Mexico Institute of Mining and Technology
         sub_title: PhD in Computer Science
         caption: August 2021 - May 2025
+        quote: >
+          Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of qualification
+      - layout: top-left
+        title: New Mexico Institute of Mining and Technology
+        sub_title: MS in Computer Science
+        caption: August 2019 - May 2022
         quote: >
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
