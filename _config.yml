@@ -131,20 +131,20 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           I started this project to experiment if it is possible to track user face and use mask to communicate with others as anonymous on real-time. This is a <mark>JavaScript</mark> project that used <mark>scaledrone.js</mark> and <mark>tracking.js</mark> library to establish web calls and track face respectively.
-    - layout: top-middle
-        title: eCash
-        link: github.com/nidharaisa/eCash
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          This <mark>C++<\mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
+      - layout: top-middle
+          title: eCash
+          link: github.com/nidharaisa/eCash
+          # link_text: Project Website
+          additional_links:
+            - title:  sproogen/modern-resume-theme
+              icon: fab fa-github
+              url: github.com/sproogen/modern-resume-theme
+            # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #   icon: fab fa-github
+            #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+          quote: >
+          description: | # this will include new lines to allow paragraphs
+            This <mark>C++<\mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
