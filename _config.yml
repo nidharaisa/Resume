@@ -49,13 +49,35 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
-
-  I am most skilled in: <mark>C/C++</mark> <mark>git</mark> <mark>Network programming</mark>
-
-content:
-  - title: Work Experience # Title for the section
+- title: Technical Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Proficient
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
+      - layout: left
+        title: Exposure
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
+
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: New Mexico Institute of Mining and Technology
+        link: nmt.edu
+#         link_text: nmt.edu
+        sub_title: Graduate Research Assistant
+        caption: August 2019 - Present
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+            - User-centric privacy management system developed for Smart Grid which enables the users for personalized data sharing along with risk assessment.
+            - Feature selection for supervised machine learning based on logistic regression along with L1 and L2 regularization.
       - layout: left
         title: Reve Systems
         link: revesoft.com
@@ -66,7 +88,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             - Engineered C++ cross-platform SDK that can support VoIP calls, IM, etc., features.
             - Implemented JNI wrapper class to integrate SDK into android applications.
-            - Developed a cross-platform connection establishment mechanism between web server and several mobile apps.
+            - Developed a cross-platform connection establishment mechanism between web server and mobile apps.
       - layout: left
         title: ringID BD
         link: ringid.com
@@ -75,9 +97,10 @@ content:
         caption: April 2017 - September 2018
         quote: >
         description: |
-           - Worked as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social networking app ’ringID’ which is used by millions of users.
-           - Designed and implemented Live streaming sub-module responsible for real-time audio/video data streaming that supports pause, resume, time-selection, etc., options.
-           - Developed android test app for feature testing testing.
+            - Worked as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social networking app ’ringID’ which is used by millions of users.
+            - Designed and implemented Live Streaming sub-module responsible for real-time audio/video data streaming that supports pause, resume, media-scrubbing options.
+            - Incorporated various data structures to serve high throughput real time data.
+            - Developed android test app for feature testing.
       - layout: left
         title: AnyConnect Pvt Ltd
         link: anyconnect.com
@@ -86,33 +109,21 @@ content:
         caption: May 2014 - July 2016
         quote: >
         description: |
-            - Designed and implemented a Reliable UDP channel that guarantees packet transmission by bandwidth management and re-transmission.
+            - Designed and implemented a Reliable UDP channel ensuring packet delivery by bandwidth management and re-transmission. 
             - Implemented Nested NAT detection mechanism resulting successful P2P connection establishment 90% times.
-            - Optimized ICE check completion time by modifying the standard protocol which improved data transfer time by 2 to 3 seconds.
-            - Implemented TCP send protocol using raw socket.
-            - Integrated unit testing for legacy codebase using Google Test Framework.
-
-  - title: Research Experience # Title for the section
+            - Improved ICE check completion time by modifying the standard protocol, reducing data transfer time by 2 to 3 seconds. 
+            - Integrated unit testing for legacy codebase using Google Test Framework ensuring more than 85% code coverage.
+            - Optimized and maintain legacy C/C++ products.
+  
+  - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: New Mexico Institute of Mining and Technology
-        link: nmt.edu
-        # link_text: boringcompany.com
-        sub_title: Graduate Research Assistant
-        caption: August 2019 - Present
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-            User-centric privacy management system for Smart Grid that allows the users to classify personal information based on priority level and control sharing of data in order to preserve data privacy. 
-      - layout: left
-        title: Shahjalal University of Science and Technology
-        link: sust.edu
-        # link_text: boringcompany.com
-        sub_title: Undergrad Thesis
-        caption: March 2013 - May 2014
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-            An optical character recognizer (OCR) for Bengali language which can detect some well known Bengali fonts from image files and convert the file into editable text file format. OCR is developed in <mark>C++</mark> using algorithms like knn, connected component, etc. <mark>Tesseract engine</mark> and <mark>OpenCV</mark> is used for image processing and training dataset.
+      - [Ontology-based User Privacy Management in the Smart Grid](https://dl.acm.org/doi/10.1145/3477314.3508383)
+      - [A Mapping Study on Privacy Attacks in Big Data and IoT](https://ieeexplore.ieee.org/abstract/document/9952824)
+      - [Differential privacy applied to smart meters- a mapping study](https://dl.acm.org/doi/10.1145/3412841.3442360)
+      - [An Experiment on Feature Selection using Logistic Regression](https://easychair.org/publications/preprint/42JL)
+  
+  
 
   - title: GitHub Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -146,38 +157,31 @@ content:
         description: | # this will include new lines to allow paragraphs
           This <mark>C++</mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
 
+  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
         title: New Mexico Institute of Mining and Technology
-        sub_title: PhD in Computer Science
-        caption: August 2021 - May 2025
+        sub_title: MS,PhD in Computer Science
+        caption: August 2019 - May 2024
         quote: >
-          Short institution or course description (optional)
+          The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), formerly New Mexico School of Mines, is a public university in Socorro, New Mexico.
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-      - layout: top-left
-        title: New Mexico Institute of Mining and Technology
-        sub_title: MS in Computer Science
-        caption: August 2019 - May 2022
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          My thesis is focused on user privacy in the smart grid system.
 
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Reading
+      - Traveling
+      - Cooking
+ #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
