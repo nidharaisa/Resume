@@ -49,19 +49,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
-- title: Technical Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: text
-        title: Proficient
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
-      - layout: left
-        title: Exposure
-        quote: >
-        description: | # this will include new lines to allow paragraphs
-          <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
+
 
 
 content:
@@ -115,16 +103,6 @@ content:
             - Integrated unit testing for legacy codebase using Google Test Framework ensuring more than 85% code coverage.
             - Optimized and maintain legacy C/C++ products.
   
-  - title: Publications # Title for the section
-    layout: text 
-    content: | # this will include new lines to allow paragraphs
-      - [Ontology-based User Privacy Management in the Smart Grid](https://dl.acm.org/doi/10.1145/3477314.3508383)
-      - [A Mapping Study on Privacy Attacks in Big Data and IoT](https://ieeexplore.ieee.org/abstract/document/9952824)
-      - [Differential privacy applied to smart meters- a mapping study](https://dl.acm.org/doi/10.1145/3412841.3442360)
-      - [An Experiment on Feature Selection using Logistic Regression](https://easychair.org/publications/preprint/42JL)
-  
-  
-
   - title: GitHub Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -156,20 +134,6 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           This <mark>C++</mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
-
-  
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-right
-        title: New Mexico Institute of Mining and Technology
-        sub_title: MS,PhD in Computer Science
-        caption: August 2019 - May 2024
-        quote: >
-          The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), formerly New Mexico School of Mines, is a public university in Socorro, New Mexico.
-        description: | # this will include new lines to allow paragraphs
-          My thesis is focused on user privacy in the smart grid system.
-
 
   - title: A Little More About Me
     layout: text
