@@ -49,42 +49,26 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
-  - layout: top-middle
+  
+content:
+
+- title: Technical Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
         title: Proficient
-        # link: github.com/nidharaisa/FaceMaskingDemo
+        link: github.com/nidharaisa/FaceMaskingDemo
         # link_text: Project Website
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
       - layout: top-middle
         title: Exposure
-        # link: github.com/nidharaisa/eCash
+        link: github.com/nidharaisa/eCash
         # link_text: Project Website
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
-
-
-
-content:
-
-# - title: Technical Skills # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: top-middle
-#         title: Proficient
-#         # link: github.com/nidharaisa/FaceMaskingDemo
-#         # link_text: Project Website
-#         quote: >
-#         description: | # this will include new lines to allow paragraphs
-#           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
-#       - layout: top-middle
-#         title: Exposure
-#         # link: github.com/nidharaisa/eCash
-#         # link_text: Project Website
-#         quote: >
-#         description: | # this will include new lines to allow paragraphs
-#           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
 
 
   - title: Experience # Title for the section
@@ -190,7 +174,7 @@ content:
         sub_title: MS,PhD in Computer Science
         caption: August 2019 - May 2024
         quote: >
-          The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), formerly New Mexico School of Mines, is a public university in Socorro, New Mexico.
+          # The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), is a public university in Socorro, New Mexico.
         description: | # this will include new lines to allow paragraphs
           My thesis is focused on user privacy in the smart grid system.
 
