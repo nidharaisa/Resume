@@ -103,6 +103,20 @@ content:
             - Integrated unit testing for legacy codebase using Google Test Framework ensuring more than 85% code coverage.
             - Optimized and maintain legacy C/C++ products.
   
+  
+  - title: Publications # Title for the section
+    layout: text 
+    content: | # this will include new lines to allow paragraphs
+      List of my publications:
+      - [Ontology-based User Privacy Management in the Smart Grid](https://dl.acm.org/doi/10.1145/3477314.3508383)
+      - [A Mapping Study on Privacy Attacks in Big Data and IoT](https://ieeexplore.ieee.org/abstract/document/9952824)
+      - [Differential privacy applied to smart meters- a mapping study](https://dl.acm.org/doi/10.1145/3412841.3442360)
+      - [An Experiment on Feature Selection using Logistic Regression](https://easychair.org/publications/preprint/42JL)
+  
+  
+  
+  
+  
   - title: GitHub Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
