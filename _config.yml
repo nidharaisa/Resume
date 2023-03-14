@@ -116,8 +116,8 @@ content:
             - Optimized and maintain legacy C/C++ products.
   
   - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+    layout: text 
+    content: | # this will include new lines to allow paragraphs
       - [Ontology-based User Privacy Management in the Smart Grid](https://dl.acm.org/doi/10.1145/3477314.3508383)
       - [A Mapping Study on Privacy Attacks in Big Data and IoT](https://ieeexplore.ieee.org/abstract/document/9952824)
       - [Differential privacy applied to smart meters- a mapping study](https://dl.acm.org/doi/10.1145/3412841.3442360)
@@ -178,10 +178,11 @@ content:
       - Reading
       - Traveling
       - Cooking
- #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 #      Look at this cool image  
 #      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
 
 # Footer
 footer_show_references: true
