@@ -54,20 +54,20 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
 
-
-
 - title: Technical Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: Proficient
-        link: 
+        # link: github.com/nidharaisa/FaceMaskingDemo
+        # link_text: Project Website
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
-      - layout: left
+      - layout: top-middle
         title: Exposure
-        link: 
+        # link: github.com/nidharaisa/eCash
+        # link_text: Project Website
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
