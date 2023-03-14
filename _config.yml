@@ -49,15 +49,7 @@ additional_links:
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
-
-
-
-content:
-
-- title: Technical Skills # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
+  - layout: top-middle
         title: Proficient
         # link: github.com/nidharaisa/FaceMaskingDemo
         # link_text: Project Website
@@ -71,6 +63,28 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
+
+
+
+content:
+
+# - title: Technical Skills # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: top-middle
+#         title: Proficient
+#         # link: github.com/nidharaisa/FaceMaskingDemo
+#         # link_text: Project Website
+#         quote: >
+#         description: | # this will include new lines to allow paragraphs
+#           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
+#       - layout: top-middle
+#         title: Exposure
+#         # link: github.com/nidharaisa/eCash
+#         # link_text: Project Website
+#         quote: >
+#         description: | # this will include new lines to allow paragraphs
+#           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
 
 
   - title: Experience # Title for the section
