@@ -50,8 +50,6 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
 
-
-
 content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -114,9 +112,6 @@ content:
       - [An Experiment on Feature Selection using Logistic Regression](https://easychair.org/publications/preprint/42JL)
   
   
-  
-  
-  
   - title: GitHub Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -148,6 +143,22 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           This <mark>C++</mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
+
+
+  
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-right
+        title: New Mexico Institute of Mining and Technology
+        sub_title: MS,PhD in Computer Science
+        caption: August 2019 - May 2024
+        quote: >
+          The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), formerly New Mexico School of Mines, is a public university in Socorro, New Mexico.
+        description: | # this will include new lines to allow paragraphs
+          My thesis is focused on user privacy in the smart grid system.
+
+
 
   - title: A Little More About Me
     layout: text
