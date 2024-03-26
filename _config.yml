@@ -50,7 +50,7 @@ about_profile_image: images/DP.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
   
-content:
+# content:
 
 - title: Technical Skills # Title for the section
     layout: text # Type of content section (list/text)
