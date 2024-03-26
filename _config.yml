@@ -27,7 +27,7 @@ linkedin_username: nidha-raisa
 # pinterest_username: jekyll
 #youtube_username: globalmtb
 # googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+orcid_username: 0009-0008-8569-1811
 
 # Additional icon links
 additional_links:
@@ -46,7 +46,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/DP.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
   
@@ -57,12 +57,12 @@ content:
     content:
       - layout: left
         title: Proficient
-        quote: >
+        # quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
       - layout: left
         title: Exposure
-        quote: >
+        # quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
 
@@ -78,8 +78,8 @@ content:
         caption: August 2019 - Present
         quote: >
         description: | # this will include new lines to allow paragraphs
-            - User-centric privacy management system developed for Smart Grid which enables the users for personalized data sharing along with risk assessment.
-            - Feature selection for supervised machine learning based on logistic regression along with L1 and L2 regularization.
+            - Proposed a comprehensive risk assessment framework using evidential reasoning approach under the Dempster-Shafer theory of belief functions, focusing on fine-grained data analysis.
+            - Outlined and implemented ontology based user-centric privacy management system for Smart Grid, empowering the users to personalize their data sharing.
       - layout: left
         title: Reve Systems
         link: revesoft.com
@@ -88,7 +88,7 @@ content:
         caption: December 2018 - July 2019
         quote: >
         description: | # this will include new lines to allow paragraphs
-            - Engineered C++ cross-platform SDK that can support VoIP calls, IM, etc., features.
+            - Engineered C++ cross-platform SDK that can support VoIP calls, Instant Messaging features.
             - Implemented JNI wrapper class to integrate SDK into android applications.
             - Developed a cross-platform connection establishment mechanism between web server and mobile apps.
       - layout: left
@@ -99,10 +99,12 @@ content:
         caption: April 2017 - September 2018
         quote: >
         description: |
-            - Worked as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social networking app ’ringID’ which is used by millions of users.
-            - Designed and implemented Live Streaming sub-module responsible for real-time audio/video data streaming that supports pause, resume, media-scrubbing options.
+            - Collaborated as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social-
+networking app called ’ringID’ with a user base in the millions.
+            - Devised Live Streaming sub-module facilitating real-time audio/video data streaming, featuring capabilities for pausing,
+resuming, and media-scrubbing.
             - Incorporated various data structures to serve high throughput real time data.
-            - Developed android test app for feature testing.
+            - Created an Android test app for feature testing prior to their integration into the production codebase
       - layout: left
         title: AnyConnect Pvt Ltd
         link: anyconnect.com
@@ -111,11 +113,11 @@ content:
         caption: May 2014 - July 2016
         quote: >
         description: |
-            - Designed and implemented a Reliable UDP channel ensuring packet delivery by bandwidth management and re-transmission. 
+            - Designed and implemented a Reliable UDP channel ensuring packet delivery by bandwidth management and re-transmission.
             - Implemented Nested NAT detection mechanism resulting successful P2P connection establishment 90% times.
-            - Improved ICE check completion time by modifying the standard protocol, reducing data transfer time by 2 to 3 seconds. 
+            - Customized standard ICE check protocol, reducing the data transfer time by 2 to 3 seconds.
             - Integrated unit testing for legacy codebase using Google Test Framework ensuring more than 85% code coverage.
-            - Optimized and maintain legacy C/C++ products.
+            - Proficiently optimized and sustained legacy C/C++ products.
   
   
   - title: Publications # Title for the section
@@ -125,7 +127,7 @@ content:
       - [Ontology-based User Privacy Management in the Smart Grid](https://dl.acm.org/doi/10.1145/3477314.3508383)
       - [A Mapping Study on Privacy Attacks in Big Data and IoT](https://ieeexplore.ieee.org/abstract/document/9952824)
       - [Differential privacy applied to smart meters- a mapping study](https://dl.acm.org/doi/10.1145/3412841.3442360)
-      - [An Experiment on Feature Selection using Logistic Regression](https://easychair.org/publications/preprint/42JL)
+      - [An Experiment on Feature Selection using Logistic Regression](https://arxiv.org/abs/2402.00201)
   
   
   - title: GitHub Projects # Title for the section
@@ -159,8 +161,6 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           This <mark>C++</mark> project implements an electronic cash system, in which the digital cash cannot be copied and reused more than once and the privacy of the customer’s identity is guaranteed.
-
-
   
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -168,13 +168,26 @@ content:
       - layout: top-right
         title: New Mexico Institute of Mining and Technology
         sub_title: MS,PhD in Computer Science
-        caption: August 2019 - May 2024
-        quote: >
+        caption: August 2019 - Present
+        # quote: >
           # The New Mexico Institute of Mining and Technology (New Mexico Tech or NMT), is a public university in Socorro, New Mexico.
-        description: | # this will include new lines to allow paragraphs
-          My thesis is focused on user privacy in the smart grid system.
+        # description: | # this will include new lines to allow paragraphs
+        #  My thesis is focused on user privacy in the smart grid system.
 
+- title: Certifications & Awards # Title for the section
+    layout: text 
+    content: | # this will include new lines to allow paragraphs
+      - [Python for Data Science, AI & Development, Coursera](https://www.coursera.org/account/accomplishments/certificate/HNYUGXUPWC9N)
+      - [Data Visualization with Python, Coursera](https://www.coursera.org/account/accomplishments/certificate/24GRG7BQKDNE)
+      - Graduate Session 1st Place Poster Award, NMRS 2021
+      - People’s Choice Award, NMRS 2021
 
+  - title: Leadership & Memberships # Title for the section
+    layout: text 
+    content: | # this will include new lines to allow paragraphs
+      - President, Association for Computing Machinery - NMT chapter
+      - Financial Officer, NMT Bangladeshi Student Association
+      - Member: ACM, SWE, NSBE
 
   - title: A Little More About Me
     layout: text
