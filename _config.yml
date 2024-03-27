@@ -94,10 +94,8 @@ content:
         caption: April 2017 - September 2018
         quote: >
         description: |
-            - Collaborated as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social-
-networking app called ’ringID’ with a user base in the millions.
-            - Devised Live Streaming sub-module facilitating real-time audio/video data streaming, featuring capabilities for pausing,
-resuming, and media-scrubbing.
+            - Collaborated as a core member of C++ SDK team, developing SDK for platform engineers to integrate into the social-networking app called ’ringID’ with a user base in the millions.
+            - Devised Live Streaming sub-module facilitating real-time audio/video data streaming, featuring capabilities for pausing, resuming, and media-scrubbing.
             - Incorporated various data structures to serve high throughput real time data.
             - Created an Android test app for feature testing prior to their integration into the production codebase
       - layout: left
