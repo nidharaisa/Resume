@@ -51,7 +51,7 @@ content:
 
 - title: Technical Skills 
   layout: text
-    content:
+  content:
       - layout: left
         title: Proficient
         # quote: >
