@@ -50,7 +50,7 @@ about_content: > # | # this will include new lines to allow paragraphs
 content:
 
 - title: Technical Skills 
-  layout: text
+  layout: list
   content:
       - layout: left
         title: Proficient
