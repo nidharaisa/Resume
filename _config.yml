@@ -48,10 +48,9 @@ about_content: > # | # this will include new lines to allow paragraphs
   Hi, my name is Raisa and currently I'm working as a graduate research assistant at New Mexico Institute of Mining and Technology. I have almost 5 years experience in the software industry. Throughout my working period, I have gained teamwork and leadership skills.
   
 content:
-
-- title: Technical Skills 
-  layout: list
-  content:
+  - title: Technical Skills 
+    layout: list
+    content:
       - layout: left
         title: Proficient
         quote: >
@@ -62,7 +61,6 @@ content:
         quote: >
         description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
-
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -172,7 +170,7 @@ resuming, and media-scrubbing.
         #  My thesis is focused on user privacy in the smart grid system.
 
 - title: Certifications & Awards # Title for the section
-    layout: text 
+    layout: list 
     content: | # this will include new lines to allow paragraphs
       - [Python for Data Science, AI & Development, Coursera](https://www.coursera.org/account/accomplishments/certificate/HNYUGXUPWC9N)
       - [Data Visualization with Python, Coursera](https://www.coursera.org/account/accomplishments/certificate/24GRG7BQKDNE)
@@ -180,14 +178,14 @@ resuming, and media-scrubbing.
       - People’s Choice Award, NMRS 2021
 
   - title: Leadership & Memberships # Title for the section
-    layout: text 
+    layout: list 
     content: | # this will include new lines to allow paragraphs
       - President, Association for Computing Machinery - NMT chapter
       - Financial Officer, NMT Bangladeshi Student Association
       - Member: ACM, SWE, NSBE
 
   - title: A Little More About Me
-    layout: text
+    layout: list
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in networks and software engineering some of my other interests and hobbies are:
       - Reading
