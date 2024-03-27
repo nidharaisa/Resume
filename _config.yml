@@ -54,13 +54,13 @@ content:
   content:
       - layout: left
         title: Proficient
-        # quote: >
-        description: > #| # this will include new lines to allow paragraphs
+        quote: >
+        description: | # this will include new lines to allow paragraphs
           <mark>C/C++</mark> <mark>python</mark> <mark>git</mark> <mark>Network programming</mark> <mark>TCP/IP</mark>
       - layout: left
         title: Exposure
-        # quote: >
-        description: > # | # this will include new lines to allow paragraphs
+        quote: >
+        description: | # this will include new lines to allow paragraphs
           <mark>Java</mark> <mark>JavaScript</mark> <mark>Tomcat</mark> <mark>AWS</mark> <mark>Spring Framework</mark> <mark>SQL</mark> <mark>mySQL</mark> <mark>JNI</mark> <mark>Rest</mark>
 
 
